@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Saran | Grid landing page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <a class="logo" href="./index.html">
+          <span class="logo__dot" aria-hidden="true"></span>
+          <span class="logo__text">Bridge Collective</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <img
+            class="menu-toggle__icon menu-toggle__icon--open"
+            src="./assets/images/icon-menu.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+          <img
+            class="menu-toggle__icon menu-toggle__icon--close"
+            src="./assets/images/icon-close.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+        </button>
+      </header>
+
+      <main class="main">
+        <section class="hero" aria-labelledby="hero-heading">
+          <h1 id="hero-heading" class="hero__title">
+            A classroom for every child.
+          </h1>
+          <p class="hero__text">
+            We fund the schools, train the teachers, and measure what works — so
+            every child we reach today becomes a graduate tomorrow.
+          </p>
+        </section>
+
+        <nav id="site-nav" class="nav" hidden aria-hidden="true">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="#">About</a></li>
+            <li><a class="nav__link" href="#">Our Work</a></li>
+            <li><a class="nav__link" href="#">Partners</a></li>
+            <li><a class="nav__link" href="#">Annual Report</a></li>
+            <li><a class="nav__link" href="#">Donate</a></li>
+          </ul>
+        </nav>
+
+        <section class="stats" aria-label="Impact statistics">
+          <article class="stat stat--students">
+            <div class="stat__top">
+              <img
+                class="stat__icon"
+                src="./assets/images/icon-sparkle.svg"
+                alt=""
+                width="32"
+                height="32"
+              />
+              <p class="stat__value">2.4M</p>
+            </div>
+            <div class="stat__bottom">
+              <h2 class="stat__label">Students reached</h2>
+              <p class="stat__desc">Across 31 countries since 2011.</p>
+            </div>
+          </article>
+
+          <article class="stat stat--schools">
+            <div class="stat__top">
+              <img
+                class="stat__icon"
+                src="./assets/images/icon-plus.svg"
+                alt=""
+                width="32"
+                height="32"
+              />
+              <p class="stat__value">1,284</p>
+            </div>
+            <div class="stat__bottom">
+              <h2 class="stat__label">Schools partnered</h2>
+              <p class="stat__desc">
+                In 14 countries, from Kenya to Guatemala.
+              </p>
+            </div>
+          </article>
+
+          <article class="stat stat--teachers">
+            <div class="stat__top">
+              <img
+                class="stat__icon"
+                src="./assets/images/icon-arrow-right.svg"
+                alt=""
+                width="32"
+                height="32"
+              />
+              <p class="stat__value">38K</p>
+            </div>
+            <div class="stat__bottom">
+              <h2 class="stat__label">Teachers trained</h2>
+              <p class="stat__desc">
+                Equipped with modern tools and methodology.
+              </p>
+            </div>
+          </article>
+
+          <article class="stat stat--graduation">
+            <div class="stat__top">
+              <img
+                class="stat__icon"
+                src="./assets/images/icon-trending-up.svg"
+                alt=""
+                width="32"
+                height="32"
+              />
+              <p class="stat__value">3.1×</p>
+            </div>
+            <div class="stat__bottom">
+              <h2 class="stat__label">Graduation lift</h2>
+              <p class="stat__desc">
+                Partner schools outperform national averages 3x.
+              </p>
+            </div>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="footer__text">
+          © 2026 Bridge Collective Registered charity 12345678
+        </p>
+      </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
